@@ -1,0 +1,6 @@
+.view-content img {
+	/* center images horizontally */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

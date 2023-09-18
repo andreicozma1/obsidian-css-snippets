@@ -1,0 +1,6 @@
+/* 
+Increase contrast of dividers
+*/
+.view-content hr {
+	filter: invert(100%);
+}

@@ -1,0 +1,6 @@
+.view-content mjx-math {
+	font-size: 125%;
+	padding: 0 0.2em;
+	/* make the original color stand out more */
+	filter: contrast(1.5);
+}

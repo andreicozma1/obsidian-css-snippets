@@ -1,0 +1,10 @@
+/* 
+Make transparent PNGs readable on dark themes
+*/
+.view-content img[src*='.png'] {
+	/* drop-shadow solution */
+	filter: drop-shadow(0 0 1px white);
+
+	/* invert solution */
+	/* filter: invert(1); */
+}
