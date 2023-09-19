@@ -9,6 +9,11 @@ body :not(.canvas-node) .markdown-source-view.mod-cm6 .cm-gutters {
 	position: inherit !important;
 }
 
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-content,
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer {
+	/* max-width: fit-content; */
+}
+
 .markdown-source-view.mod-cm6 .cm-content {
 	width: 0 !important;
 }
