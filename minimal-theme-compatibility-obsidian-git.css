@@ -1,0 +1,19 @@
+/* 
+*/
+
+body :not(.canvas-node) .markdown-source-view.mod-cm6 .cm-gutters {
+	position: inherit !important;
+}
+
+.cm-contentContainer:has(.line-author-gutter-container) {
+	justify-content: center;
+}
+
+.cm-contentContainer:has(.line-author-gutter-container) > .cm-content {
+	max-width: fit-content !important;
+	width: 0 !important;
+}
+
+.cm-sizer:has(.line-author-gutter-container) {
+	display: flex !important;
+}
