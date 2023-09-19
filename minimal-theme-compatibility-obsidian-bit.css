@@ -5,21 +5,31 @@ select the parent of the element with class line-author-gutter-container
 	position: sticky !important;
 } */
 
-/* body :not(.canvas-node) .markdown-source-view.mod-cm6 .cm-gutters {
+body :not(.canvas-node) .markdown-source-view.mod-cm6 .cm-gutters {
 	position: inherit !important;
 }
 
-.markdown-source-view.mod-cm6.is-readable-line-width .cm-content,
+/* :not(.line-author-gutter-container)
+	> body
+	:not(.canvas-node)
+	.markdown-source-view.mod-cm6
+	.cm-gutters {
+	position: inherit !important;
+} */
+
+/* .markdown-source-view.mod-cm6.is-readable-line-width .cm-content,
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer {
 	max-width: fit-content;
-}
+} */
 
-.markdown-source-view.mod-cm6 .cm-content {
+/* .markdown-source-view.mod-cm6 .cm-content {
 	width: 0 !important;
 } */
 
-.cm-gutters:has(.line-author-gutter-container) {
-	/* always to the left of the next element */
-	/* position: fixed !important; */
-	/* right: 0; */
+.cm-contentContainer:has(.line-author-gutter-container) > .cm-content {
+	max-width: fit-content !important;
+}
+
+.cm-sizer {
+	display: flex !important;
 }
