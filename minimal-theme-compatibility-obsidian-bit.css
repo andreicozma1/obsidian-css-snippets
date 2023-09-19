@@ -33,3 +33,7 @@ body :not(.canvas-node) .markdown-source-view.mod-cm6 .cm-gutters {
 .cm-sizer {
 	display: flex !important;
 }
+
+.cm-contentContainer {
+	justify-content: center;
+}
